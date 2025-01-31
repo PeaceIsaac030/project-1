@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeWo-direkt</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div>
+        <div class="start-screen flex flex-col">
+            <div class="navbar py-5 px-6 flex flex-row flex-nowrap items-center justify-between bg-white shadow-sm z-10">
+                <div class="logo">
+                    <img src="logo.svg"/>
+                </div>
+                <navbar class="font-[450]">
+                    <a href="#" class="mx-1 border border-gray-200 rounded-full px-3 py-2">Download the app</a>
+                    <a href="#" class="mx-1">Travel Planner</a>
+                    <a href="#" class="mx-1">Register Accommodation</a>
+                    <a href="#" class="mx-1">Help</a>
+                    <a href="#" class="mx-1">My Travels</a>
+                    <a href="#" class="mx-1">Register</a>   
+                </navbar>
+                
+            </div>
+            <div class="dark-overlay"></div>
+            <div class="mx-6 mt-60 z-10">
+                <h2 class="font-serif text-white text-4xl my-4">Everything is fine, you book with FeWo-direkt</h2>
+                <div class="bg-white rounded-lg flex flex-row flex-1 p-4 gap-2 sticky-top">
+                    <div class="border border-gray-200 p-2 rounded-lg w-full overflow-hidden text-nowrap text-ellipsis flex flex-row items-center">Where you want to travel?</div>
+                    <div class="border border-gray-200 p-2 rounded-lg w-full overflow-hidden text-nowrap text-ellipsis flex flex-row items-center">
+                        <input type="date"/>
+                    </div>
+                    <div class="border border-gray-200 p-2 rounded-lg w-full overflow-hidden text-nowrap text-ellipsis flex flex-row items-center">
+                        <h2>Guests</h2>
+                        <input type="number"/>
+                    </div>
+                    <button class="bg-gray-800 text-white py-2 px-3 rounded-full">
+                        Seek
+                    </div>
+                </div>
+            </div>
+            <div class="min-h-screen bg-white w-full p-8">
+                <div>
+                    <div class="bg-gray-800 rounded-lg flex flex-row justify-between p-6 text-white gap-3 items-center">
+                        <p class="font-semibold text-[18px]">Sign in to message the host and get more details about a listing.</p>
+                        <a href="#">Register</a>
+                    </div>
+                    <div class="mt-10">
+                        <h2 class="my-6 text-4xl font-semibold">Popular travel destinations</h2>
+                        <div class="flex flex-row gap-6 flex-wrap justify-center">
+                            <div class="flex-col h-[140px] w-[300px] border border-gray-200 rounded-lg overflow-hidden">
+                                <div style="flex-grow: 1;" class="h-[70%] overflow-hidden">
+                                    <img src="images/bfe337d03fdaa52393782f850bdfbc39.jpeg" alt="image" >
+                                </div>
+                               <div class="border-t border-gray-200" >
+                                <h2 class="text-xl self-end p-1">Kigali</h2>
+                               </div>
+                            </div>
+                            <div class="flex-col h-[140px] w-[300px] border border-gray-200 rounded-lg overflow-hidden">
+                                <div style="flex-grow: 1;" class="h-[70%] overflow-hidden">
+                                    <img src="images/c2258444d08d79855d05a9c7cdbdcec8.jpeg" alt="image" >
+                                </div>
+                               <div class="border-t border-gray-200" >
+                                <h2 class="text-xl self-end p-1">Nairobi</h2>
+                               </div>
+                            </div>
+                            <div class="flex-col h-[140px] w-[300px] border border-gray-200 rounded-lg overflow-hidden">
+                                <div style="flex-grow: 1;" class="h-[70%] overflow-hidden">
+                                    <img src="images/191dcb074564e1577247dcdce8666268.jpeg" alt="image" >
+                                </div>
+                               <div class="border-t border-gray-200" >
+                                <h2 class="text-xl self-end p-1">Paris</h2>
+                               </div>
+                            </div>
+                            <div class="flex-col h-[140px] w-[300px] border border-gray-200 rounded-lg overflow-hidden">
+                                <div style="flex-grow: 1;" class="h-[70%] overflow-hidden">
+                                    <img src="images/1f24b64adeac200bc93ccb3c69d8b901.jpeg" alt="image" class="object-cover">
+                                </div>
+                               <div class="border-t border-gray-200" >
+                                <h2 class="text-xl self-end p-1">Dubai</h2>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-10">
+                        <h2 class="my-6 text-4xl font-semibold">Find accommodations to suit your taste</h2>
+                    </div>
+                    
+                      <div class="flex overflow-x-auto space-x-4 scroll-smooth">
+                        <!-- Image 1 -->
+                        <img src="images\a3a74466.jpeg" alt="Image 1" class="w-72 h-48 object-cover rounded-lg shadow-lg">
+                        <!-- Image 2 -->
+                        <img src="images\fb4ad6b16d166bd54ed12dce6aa6203e.jpg" alt="Image 2" class="w-72 h-48 object-cover rounded-lg shadow-lg">
+                        <!-- Image 3 -->
+                        <img src="images\f63c61d3641e7e01a1ef870a027b1cff.jpg" alt="Image 3" class="w-72 h-48 object-cover rounded-lg shadow-lg">
+                        <!-- Image 4 -->
+                        <img src="images\catedilar.jpg" alt="Image 4" class="w-72 h-48 object-cover rounded-lg shadow-lg">
+                        <!-- Image 5 -->
+                        <img src="images\milan city.jpg" alt="Image 5" class="w-72 h-48 object-cover rounded-lg shadow-lg">
+                        <!-- Image 6 -->
+                        <img src="images\51e48de9.jpg" alt="Image 6" class="w-72 h-48 object-cover rounded-lg shadow-lg">
+                      </div>
+                      <div class="mt-10">
+                        <h2 class="my-0 text-3xl font-semibold">Browse weekend trips</h2>
+                        <h1 class="text-2x1">Offers for the period: 28 February - 2 March</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="p-8 w-full h-[600px]">
+                <div class="relative overflow-hidden rounded-2xl w-full h-full">
+                    <div class="bg-white p-6 rounded-2xl absolute z-10 left-8 max-w-[350px] translate-y-[25%]">
+                        <h2 class="mb-4 text-4xl font-serif">
+                            Rent your accommodation with confidence with FeWo-direkt
+                        </h2>
+                        <p class="mb-6 font-serif">
+                            Real-time support, quick and easy registration and guests with positive feedback – at FeWo-direkt, hosting feels like a vacation.
+                        </p>
+                        <button class="bg-gray-800 px-3 py-3 rounded-full text-white">
+                            Advertise accommodation
+                        </button>
+                    </div>
+                    <img src="images/732141-0_2-VRBO_HOSTS_LA_SAUNA_NEBELING_0101.jpg" class="absolute top-0 left-0 w-full h-full object-cover"/>
+                   
+                </div>    
+            </div>
+            <div class="p-8">
+                <h2 class="text-3xl font-semibold">Browse weekend trips</h2>
+                <p>
+                    Offers for the period:<b> March 7–March 9</b>
+                </p>
+                <div class="flex flex-row">
+                        <!-- card start -->
+                <div class="w-[280px] p-2">
+                    <div class="w-full h-[200px] overflow-hidden rounded-2xl mb-2">
+                        <img src="images/PARTNER_Letterbox_Cottage_Cotswolds_v2.jpeg">
+                    </div>
+                    <div>
+                        <h2 class="font-semibold">Detached house with large garden, suitable for families with children
+                        </h2>
+                        <p>
+                            Lenzkirch, Baden-Wuerttemberg
+                        </p>
+                        <div>
+                            <p class="text-2xl font-semibold">415 €</p>
+                            <p class="text-sm">207 € per night</p>
+                            <p class="text-sm">incl. taxes & fees</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card end -->
+                    <!-- card start -->
+                <div class="w-[280px] p-2">
+                    <div class="w-full h-[200px] overflow-hidden rounded-2xl mb-2">
+                        <img src="images/PARTNER_Letterbox_Cottage_Cotswolds_v2.jpeg">
+                    </div>
+                    <div>
+                        <h2 class="font-semibold">Detached house with large garden, suitable for families with children
+                        </h2>
+                        <p>
+                            Lenzkirch, Baden-Wuerttemberg
+                        </p>
+                        <div>
+                            <p class="text-2xl font-semibold">415 €</p>
+                            <p class="text-sm">207 € per night</p>
+                            <p class="text-sm">incl. taxes & fees</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card end -->
+                </div>
+            </div>
+            
+            <div class="p-8">
+                <details class="border-b pb-3 mt-4">
+                   <summary>
+                    Top-Reiseziele
+                   </summary>
+                    <div>
+                        <h2>Content</h2>
+                    </div>
+                    
+                </details>
+                <details class="border-b pb-3 mt-4">
+                    <summary>
+                        Weitere Top-Reiseziele
+                    </summary>
+                     <div>
+                         <h2>Content</h2>
+                     </div>
+                     
+                 </details>
+                 <details class="border-b pb-3 mt-4">
+                    <summary>
+                        Ferienhäuser
+                    </summary>
+                     <div>
+                         <h2>Content</h2>
+                     </div>
+                  
+                 </details>
+                 <details class="border-b pb-3 mt-4">
+                    <summary>
+                        Villen und Ferienwohnungen
+                    </summary>
+                     <div>
+                         <h2>Content</h2>
+                    
+                     </div>
+                 </details>
+                 <details class="border-b pb-3 mt-4">
+                    <summary>
+                        Urlaubsideen
+                    </summary>
+                     <div>
+                         <h2>Content</h2>
+                     
+                     </div>
+                 </details>
+                
+            </div>
+
+        </div>
+        <footer>
+            <div class="flex flex-row justify-between flex-nowrap bg-gray-100 p-8">
+                <div class="">
+                    <h2 class="mb-4">Explore FeWo-direkt</h2>
+                    <div class="flex flex-col gap-3">
+                        <a href="#" class="text-blue-500 text-sm hover:underline">Advertise accommodations</a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline">Book with confidence</a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline">trust and security</a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline">Resources for Partners</a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline">holiday homes and holiday inspiration</a>
+                      
+                    </div>
+                </div>
+                <div class="">
+                    <h2 class="mb-4">Pursue</h2>
+                    <div class="flex flex-col gap-3">
+                        <a href="#" class="text-blue-500 text-sm hover:underline">About us</a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline">career</a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline">affliate partners</a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline">press</a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline">General terms and condition of business</a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline"></a>
+                    </div>
+                </div>
+                <div class="">
+                    <h2 class="mb-4">The Vrbo family</h2>
+                    <div class="flex flex-col gap-3">
+                        <a href="#" class="text-blue-500 text-sm hover:underline">Vrbo</a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline">Arbitel.fr</a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline"></a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline"></a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline"></a>
+                        <a href="#" class="text-blue-500 text-sm hover:underline"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

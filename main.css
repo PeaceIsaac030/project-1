@@ -1,0 +1,40 @@
+* {
+    outline: none;
+}
+
+
+.start-screen {
+    min-height: 100vh;
+    background-image: url("images/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.jpeg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;  
+}
+.dark-overlay {
+    background-color: #0000004e;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+/* Smooth infinite scrolling animation */
+.scrolling-images {
+    animation: scroll-left 15s linear infinite;
+  }
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
